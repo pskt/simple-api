@@ -1,0 +1,10 @@
+App\DTO\CreateProductRequest:
+    properties:
+        name:
+            - NotBlank: ~
+            - Length:
+                  max: 100
+        price:
+            - NotBlank: ~
+            - GreaterThan:
+                  value: 0

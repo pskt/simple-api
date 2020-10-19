@@ -1,0 +1,4 @@
+products_create:
+    path: /products
+    methods: [POST]
+    controller: App\Controller\ProductsController::create
